@@ -1,16 +1,19 @@
 cmake_minimum_required (VERSION 3.7)
 
-set(DEVELOPMENT_PROJECT_NAME "project")                     # <== Set to your project name, e.g. project.xcodeproj
-set(DEVELOPMENT_TEAM_ID "AAAAAAAAAA")                       # <== Set to your team ID from Apple
-set(APP_NAME "YOURAPP")                                     # <== Set To your app's name
-set(APP_BUNDLE_IDENTIFIER "com.company.app")                # <== Set to your app's bundle identifier
+set(CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_SOURCE_DIR}/ios.cmake")
+set(IOS_PLATFORM "OS")
+
+set(DEVELOPMENT_PROJECT_NAME "holochat")                     # <== Set to your project name, e.g. project.xcodeproj
+set(DEVELOPMENT_TEAM_ID "94J6N6TEVZ")                       # <== Set to your team ID from Apple
+set(APP_NAME "HoloChat")                                     # <== Set To your app's name
+set(APP_BUNDLE_IDENTIFIER "com.eu360world.holochat")                # <== Set to your app's bundle identifier
 set(FRAMEWORK_NAME "FooBar")                                # <== Set to your framework's name
-set(FRAMEWORK_BUNDLE_IDENTIFIER "com.company.framework")    # <== Set to your framework's bundle identifier (cannot be the same as app bundle identifier)
+set(FRAMEWORK_BUNDLE_IDENTIFIER "com.eu360world.framework")    # <== Set to your framework's bundle identifier (cannot be the same as app bundle identifier)
 set(TEST_NAME "Tests")                                      # <== Set to your test's name
-set(TEST_BUNDLE_IDENTIFIER "com.company.tests")             # <== Set to your tests's bundle ID
+set(TEST_BUNDLE_IDENTIFIER "com.eu360world.tests")             # <== Set to your tests's bundle ID
 set(CODE_SIGN_IDENTITY "iPhone Developer")                  # <== Set to your preferred code sign identity, to see list:
                                                             # /usr/bin/env xcrun security find-identity -v -p codesigning
-set(DEPLOYMENT_TARGET 8.0)                                  # <== Set your deployment target version of iOS
+set(DEPLOYMENT_TARGET 12.0)                                  # <== Set your deployment target version of iOS
 set(DEVICE_FAMILY "1")                                      # <== Set to "1" to target iPhone, set to "2" to target iPad, set to "1,2" to target both
 set(LOGIC_ONLY_TESTS 0)                                     # <== Set to 1 if you do not want tests to be hosted by the application, speeds up pure logic tests but you can not run them on real devices
 
@@ -117,6 +120,7 @@ set_target_properties(${APP_NAME} PROPERTIES
 # Turn on ARC
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fobjc-arc")
 
+
 # Create the app target
 set_target_properties(${APP_NAME} PROPERTIES
                       XCODE_ATTRIBUTE_DEBUG_INFORMATION_FORMAT "dwarf-with-dsym"
@@ -203,29 +207,7 @@ add_custom_command(
     fi\"
 )
 
-# Codesign the framework in it's new spot
-add_custom_command(
-    TARGET
-    ${APP_NAME}
-    POST_BUILD COMMAND /bin/sh -c
-    \"COMMAND_DONE=0 \;
-    if codesign --force --verbose
-        ${PROJECT_BINARY_DIR}/\${CONFIGURATION}\${EFFECTIVE_PLATFORM_NAME}/${APP_NAME}.app/Frameworks/${FRAMEWORK_NAME}.framework
-        --sign ${CODE_SIGN_IDENTITY}
-        \&\>/dev/null \; then
-        COMMAND_DONE=1 \;
-    fi \;
-    if codesign --force --verbose
-        \${BUILT_PRODUCTS_DIR}/${APP_NAME}.app/Frameworks/${FRAMEWORK_NAME}.framework
-        --sign ${CODE_SIGN_IDENTITY}
-        \&\>/dev/null \; then
-        COMMAND_DONE=1 \;
-    fi \;
-    if [ \\$$COMMAND_DONE -eq 0 ] \; then
-        echo Framework codesign failed \;
-        exit 1 \;
-    fi\"
-)
+
 
 # Add a "PlugIns" folder as a kludge fix for how the XcTest package generates paths 
 add_custom_command(
