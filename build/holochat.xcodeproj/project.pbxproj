@@ -1,0 +1,1292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3D4B322BC2534673AF136C3C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FF81F54701C44FDE8CE2A4A5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8E06AA5B6F93455EABAA1666 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		953D954A96F3447D98B16092 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 13A39FE079C04E71AC82335A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				7F69E5E8737941229556A676 /* CMake Rules */,
+			);
+			dependencies = (
+				9572027244DC4C3B9C3AA8D0 /* PBXTargetDependency */,
+				C28534D4A0744BFBB131B61A /* PBXTargetDependency */,
+				313E51985BFC4967AD8FB378 /* PBXTargetDependency */,
+				3F6C035F7A254024A03888E6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01630CD812304280A3B32437 /* /Users/james/Projects/ios-cmake/tests/Tests.m */ = {isa = PBXBuildFile; fileRef = 8ABE408C4E434884B31B3367 /* /Users/james/Projects/ios-cmake/tests/Tests.m */; };
+		15F925826A6A46208720CD0B /* /Users/james/Projects/ios-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 839AC393D95F40EABAACAE63 /* /Users/james/Projects/ios-cmake/CMakeLists.txt */; };
+		2969631C58664B7A86D75DF9 /* /Users/james/Projects/ios-cmake/Main.storyboard */ = {isa = PBXBuildFile; fileRef = 7DE889CFB38C470F973600A1 /* /Users/james/Projects/ios-cmake/Main.storyboard */; };
+		3671E72BE0114A0A91135F12 /* /Users/james/Projects/ios-cmake/main.m */ = {isa = PBXBuildFile; fileRef = 36749841EB3943D980847AE7 /* /Users/james/Projects/ios-cmake/main.m */; };
+		391EA629C89D428F968174C4 /* /Users/james/Projects/ios-cmake/tests/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E48AD7C1EA5B45F9B49EBD97 /* /Users/james/Projects/ios-cmake/tests/CMakeLists.txt */; };
+		3F7EFF73CC6844D7A4D46E3B /* /Users/james/Projects/ios-cmake/CppInterface.h */ = {isa = PBXBuildFile; fileRef = 1E828FB7F7D84929811C4AC0 /* /Users/james/Projects/ios-cmake/CppInterface.h */; };
+		40BAB21FE15F4976BDA3549F /* /Users/james/Projects/ios-cmake/Prefix.pch */ = {isa = PBXBuildFile; fileRef = CC41C3A0DB00494C9B2C0CB9 /* /Users/james/Projects/ios-cmake/Prefix.pch */; };
+		49EA701DBE794B9AB696C46E /* /Users/james/Projects/ios-cmake/AppDelegate.m */ = {isa = PBXBuildFile; fileRef = C95AD9796A9F4480BFB21B54 /* /Users/james/Projects/ios-cmake/AppDelegate.m */; };
+		4F26B4F6C5014F21B9E6F27D /* /Users/james/Projects/ios-cmake/cppframework/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C880E9EF72E644E2A741854E /* /Users/james/Projects/ios-cmake/cppframework/CMakeLists.txt */; };
+		52EE88D97B084879AFEC600B /* /Users/james/Projects/ios-cmake/ViewController.h */ = {isa = PBXBuildFile; fileRef = DC03A5A521E14AE288739ADD /* /Users/james/Projects/ios-cmake/ViewController.h */; };
+		67AB09ECFAF540899BAAE536 /* /Users/james/Projects/ios-cmake/LaunchScreen.storyboard */ = {isa = PBXBuildFile; fileRef = F5CCADECCA9F470695929F97 /* /Users/james/Projects/ios-cmake/LaunchScreen.storyboard */; };
+		824FA29FD3DB4EF69572A31A /* /Users/james/Projects/ios-cmake/cppframework/Foo.hh */ = {isa = PBXBuildFile; fileRef = E5DE39C6347C42B0AD0AB371 /* /Users/james/Projects/ios-cmake/cppframework/Foo.hh */; settings = {ATTRIBUTES = (Public); }; };
+		841D94548B134DA0997D3A8A /* /Users/james/Projects/ios-cmake/cppframework/Foo.cpp */ = {isa = PBXBuildFile; fileRef = B07D2D80919547C7A9B3BEDB /* /Users/james/Projects/ios-cmake/cppframework/Foo.cpp */; };
+		A868040F2CFF4851962D873C /* /Users/james/Projects/ios-cmake/ViewController.m */ = {isa = PBXBuildFile; fileRef = 6D30F9824ECE4146BDE3F988 /* /Users/james/Projects/ios-cmake/ViewController.m */; };
+		ACA20A2A6FD044E987F5E62E /* /Users/james/Projects/ios-cmake/AppDelegate.h */ = {isa = PBXBuildFile; fileRef = A928FF05C6094379861AE25F /* /Users/james/Projects/ios-cmake/AppDelegate.h */; };
+		B0E81F355C0C444698575091 /* /Users/james/Projects/ios-cmake/CppInterface.mm */ = {isa = PBXBuildFile; fileRef = 131384C09DF94DB9A4FD310E /* /Users/james/Projects/ios-cmake/CppInterface.mm */; };
+		BC27433AB0A542D79A58CC1E /* /Users/james/Projects/ios-cmake/build/CMakeFiles/HoloChat.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 4D371628B3FB4E52BBE165AA /* /Users/james/Projects/ios-cmake/build/CMakeFiles/HoloChat.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		683D50FCB0CE4B4CAB5B914C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7190F2C81A7842D0A30D4180 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		AF4D5D55AEBC4FC98BE796B9 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B06E508AD5484FCD96380CA3 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		085E798AAB164C268227DD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4E8BB3BCCA4818A2804F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3ACE61F008249D495F59BCC;
+			remoteInfo = HoloChat;
+		};
+		0A5147C49B1F4CFE9CABDAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4E8BB3BCCA4818A2804F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BFD329D00B44C6A013BA90;
+			remoteInfo = FooBar;
+		};
+		23D7B28C4E9344D3B854D3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4E8BB3BCCA4818A2804F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 258A178999504C94819C06F3;
+			remoteInfo = Tests;
+		};
+		40D630E1395540D7825E03A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4E8BB3BCCA4818A2804F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4B322BC2534673AF136C3C;
+			remoteInfo = ZERO_CHECK;
+		};
+		7A54CD3B98F34656A2D20174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4E8BB3BCCA4818A2804F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3ACE61F008249D495F59BCC;
+			remoteInfo = HoloChat;
+		};
+		848E136356184E0BA230F782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4E8BB3BCCA4818A2804F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4B322BC2534673AF136C3C;
+			remoteInfo = ZERO_CHECK;
+		};
+		9BDA6B12845D453BBFDE96B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4E8BB3BCCA4818A2804F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BFD329D00B44C6A013BA90;
+			remoteInfo = FooBar;
+		};
+		A30A3E0FBD3B49CB9153CE28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4E8BB3BCCA4818A2804F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4B322BC2534673AF136C3C;
+			remoteInfo = ZERO_CHECK;
+		};
+		F8D5661ABBB94D968D075BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4E8BB3BCCA4818A2804F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4B322BC2534673AF136C3C;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131384C09DF94DB9A4FD310E /* /Users/james/Projects/ios-cmake/CppInterface.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CppInterface.mm; path = CppInterface.mm; sourceTree = SOURCE_ROOT; };
+		1E828FB7F7D84929811C4AC0 /* /Users/james/Projects/ios-cmake/CppInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CppInterface.h; path = CppInterface.h; sourceTree = SOURCE_ROOT; };
+		36749841EB3943D980847AE7 /* /Users/james/Projects/ios-cmake/main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = main.m; path = main.m; sourceTree = SOURCE_ROOT; };
+		4D371628B3FB4E52BBE165AA /* /Users/james/Projects/ios-cmake/build/CMakeFiles/HoloChat.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/CMakeFiles/HoloChat.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		5F7430A71B844C7484DC2E10 /* Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Tests.xctest/Tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D30F9824ECE4146BDE3F988 /* /Users/james/Projects/ios-cmake/ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ViewController.m; path = ViewController.m; sourceTree = SOURCE_ROOT; };
+		719642E322144AF7B3838489 /* /Users/james/Projects/ios-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7DE889CFB38C470F973600A1 /* /Users/james/Projects/ios-cmake/Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+		839AC393D95F40EABAACAE63 /* /Users/james/Projects/ios-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8ABE408C4E434884B31B3367 /* /Users/james/Projects/ios-cmake/tests/Tests.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = Tests.m; path = tests/Tests.m; sourceTree = SOURCE_ROOT; };
+		A928FF05C6094379861AE25F /* /Users/james/Projects/ios-cmake/AppDelegate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AppDelegate.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		B07D2D80919547C7A9B3BEDB /* /Users/james/Projects/ios-cmake/cppframework/Foo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Foo.cpp; path = cppframework/Foo.cpp; sourceTree = SOURCE_ROOT; };
+		B4DFCE3765BE46169E0BF3E6 /* HoloChat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HoloChat; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2296AD318444262ADAEA8F0 /* FooBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FooBar.framework/FooBar; sourceTree = BUILT_PRODUCTS_DIR; };
+		C880E9EF72E644E2A741854E /* /Users/james/Projects/ios-cmake/cppframework/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = cppframework/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C95AD9796A9F4480BFB21B54 /* /Users/james/Projects/ios-cmake/AppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = AppDelegate.m; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		CC41C3A0DB00494C9B2C0CB9 /* /Users/james/Projects/ios-cmake/Prefix.pch */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Prefix.pch; path = Prefix.pch; sourceTree = SOURCE_ROOT; };
+		DC03A5A521E14AE288739ADD /* /Users/james/Projects/ios-cmake/ViewController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ViewController.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
+		E48AD7C1EA5B45F9B49EBD97 /* /Users/james/Projects/ios-cmake/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E5DE39C6347C42B0AD0AB371 /* /Users/james/Projects/ios-cmake/cppframework/Foo.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Foo.hh; path = cppframework/Foo.hh; sourceTree = SOURCE_ROOT; };
+		F5CCADECCA9F470695929F97 /* /Users/james/Projects/ios-cmake/LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03B8868A759A4615A8944456 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE39C6347C42B0AD0AB371 /* /Users/james/Projects/ios-cmake/cppframework/Foo.hh */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		1FAB4450990C486BA3D58DFE /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A928FF05C6094379861AE25F /* /Users/james/Projects/ios-cmake/AppDelegate.h */,
+				1E828FB7F7D84929811C4AC0 /* /Users/james/Projects/ios-cmake/CppInterface.h */,
+				DC03A5A521E14AE288739ADD /* /Users/james/Projects/ios-cmake/ViewController.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		2844E7401E834AD5BDB22133 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ABE408C4E434884B31B3367 /* /Users/james/Projects/ios-cmake/tests/Tests.m */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		295D015971974466BC173BA0 /* FooBar */ = {
+			isa = PBXGroup;
+			children = (
+				03B8868A759A4615A8944456 /* Header Files */,
+				FA784C5967D24935B004A9FC /* Source Files */,
+				C880E9EF72E644E2A741854E /* /Users/james/Projects/ios-cmake/cppframework/CMakeLists.txt */,
+			);
+			name = FooBar;
+			sourceTree = "<group>";
+		};
+		306DFB5536E6461EB45BD576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4DFCE3765BE46169E0BF3E6 /* HoloChat */,
+				C2296AD318444262ADAEA8F0 /* FooBar */,
+				5F7430A71B844C7484DC2E10 /* Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD6A289E5154CECA9CD5CC5 /* HoloChat */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB4450990C486BA3D58DFE /* Header Files */,
+				FF9889D2A69A41E287321FD4 /* Source Files */,
+				CC5F024F47EF4D1D9EF7B08A /* Resources */,
+				839AC393D95F40EABAACAE63 /* /Users/james/Projects/ios-cmake/CMakeLists.txt */,
+				CC41C3A0DB00494C9B2C0CB9 /* /Users/james/Projects/ios-cmake/Prefix.pch */,
+			);
+			name = HoloChat;
+			sourceTree = "<group>";
+		};
+		5692F3C44AFD44438F67022C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D134B7A6ACA744E4885147B2 /* CMake Rules */,
+				719642E322144AF7B3838489 /* /Users/james/Projects/ios-cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		710A8137642545DF9F6F83D9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2844E7401E834AD5BDB22133 /* Source Files */,
+				E48AD7C1EA5B45F9B49EBD97 /* /Users/james/Projects/ios-cmake/tests/CMakeLists.txt */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		81BED2A1AF064146A771C3F9 = {
+			isa = PBXGroup;
+			children = (
+				4FD6A289E5154CECA9CD5CC5 /* HoloChat */,
+				5692F3C44AFD44438F67022C /* ALL_BUILD */,
+				295D015971974466BC173BA0 /* FooBar */,
+				710A8137642545DF9F6F83D9 /* Tests */,
+				306DFB5536E6461EB45BD576 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC5F024F47EF4D1D9EF7B08A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5CCADECCA9F470695929F97 /* /Users/james/Projects/ios-cmake/LaunchScreen.storyboard */,
+				7DE889CFB38C470F973600A1 /* /Users/james/Projects/ios-cmake/Main.storyboard */,
+				4D371628B3FB4E52BBE165AA /* /Users/james/Projects/ios-cmake/build/CMakeFiles/HoloChat.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D134B7A6ACA744E4885147B2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FA784C5967D24935B004A9FC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B07D2D80919547C7A9B3BEDB /* /Users/james/Projects/ios-cmake/cppframework/Foo.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FF9889D2A69A41E287321FD4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C95AD9796A9F4480BFB21B54 /* /Users/james/Projects/ios-cmake/AppDelegate.m */,
+				131384C09DF94DB9A4FD310E /* /Users/james/Projects/ios-cmake/CppInterface.mm */,
+				6D30F9824ECE4146BDE3F988 /* /Users/james/Projects/ios-cmake/ViewController.m */,
+				36749841EB3943D980847AE7 /* /Users/james/Projects/ios-cmake/main.m */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2040EC00340F4F89A4249099 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824FA29FD3DB4EF69572A31A /* /Users/james/Projects/ios-cmake/cppframework/Foo.hh */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		258A178999504C94819C06F3 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DA9B11CDE947019D55AB40 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				AD5B43622689415F8D344DCC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1BCE8314613490C80A5CF56 /* PBXTargetDependency */,
+				00C7847CC39C4D3B92450B87 /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 5F7430A71B844C7484DC2E10 /* Tests */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60BFD329D00B44C6A013BA90 /* FooBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CCC70D48BF4CC48712AD08 /* Build configuration list for PBXNativeTarget "FooBar" */;
+			buildPhases = (
+				2040EC00340F4F89A4249099 /* Headers */,
+				811A036A4A2C45E582E0D1B9 /* Sources */,
+				6814CC5E92BE472BB6F8E324 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64598E49E7B24C1388B936B1 /* PBXTargetDependency */,
+			);
+			name = FooBar;
+			productName = FooBar;
+			productReference = C2296AD318444262ADAEA8F0 /* FooBar */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3ACE61F008249D495F59BCC /* HoloChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB804A827DCE4CAE87B6E7F4 /* Build configuration list for PBXNativeTarget "HoloChat" */;
+			buildPhases = (
+				062187ACAA1149D7868CD311 /* Resources */,
+				06391AB423BF4FF88E32EA34 /* Sources */,
+				4F42756663894B04B472E032 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9210CDA46D494EA0AD1E47F4 /* PBXTargetDependency */,
+				DC29B6D72FA8428696D93C21 /* PBXTargetDependency */,
+			);
+			name = HoloChat;
+			productName = HoloChat;
+			productReference = B4DFCE3765BE46169E0BF3E6 /* HoloChat */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C4E8BB3BCCA4818A2804F38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 84F4C65325F04293AD3ABD57 /* Build configuration list for PBXProject "holochat" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7190F2C81A7842D0A30D4180 /* Debug */,
+				B06E508AD5484FCD96380CA3 /* Release */,
+				683D50FCB0CE4B4CAB5B914C /* MinSizeRel */,
+				AF4D5D55AEBC4FC98BE796B9 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 81BED2A1AF064146A771C3F9;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				953D954A96F3447D98B16092 /* ALL_BUILD */,
+				A3ACE61F008249D495F59BCC /* HoloChat */,
+				3D4B322BC2534673AF136C3C /* ZERO_CHECK */,
+				60BFD329D00B44C6A013BA90 /* FooBar */,
+				258A178999504C94819C06F3 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F42756663894B04B472E032 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/james/Projects/ios-cmake/build -f /Users/james/Projects/ios-cmake/build/CMakeScripts/HoloChat_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6814CC5E92BE472BB6F8E324 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/james/Projects/ios-cmake/build/cppframework -f /Users/james/Projects/ios-cmake/build/cppframework/CMakeScripts/FooBar_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6B8C583E97D1470EAE861BB0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7F69E5E8737941229556A676 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/james/Projects/ios-cmake/build -f /Users/james/Projects/ios-cmake/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8E06AA5B6F93455EABAA1666 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/james/Projects/ios-cmake/build -f /Users/james/Projects/ios-cmake/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A3CF0631F3A54A40B99EB0AA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		062187ACAA1149D7868CD311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67AB09ECFAF540899BAAE536 /* /Users/james/Projects/ios-cmake/LaunchScreen.storyboard */,
+				2969631C58664B7A86D75DF9 /* /Users/james/Projects/ios-cmake/Main.storyboard */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06391AB423BF4FF88E32EA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EA701DBE794B9AB696C46E /* /Users/james/Projects/ios-cmake/AppDelegate.m */,
+				B0E81F355C0C444698575091 /* /Users/james/Projects/ios-cmake/CppInterface.mm */,
+				A868040F2CFF4851962D873C /* /Users/james/Projects/ios-cmake/ViewController.m */,
+				3671E72BE0114A0A91135F12 /* /Users/james/Projects/ios-cmake/main.m */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811A036A4A2C45E582E0D1B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841D94548B134DA0997D3A8A /* /Users/james/Projects/ios-cmake/cppframework/Foo.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5B43622689415F8D344DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01630CD812304280A3B32437 /* /Users/james/Projects/ios-cmake/tests/Tests.m */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00C7847CC39C4D3B92450B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3ACE61F008249D495F59BCC /* HoloChat */;
+			targetProxy = 7A54CD3B98F34656A2D20174 /* PBXContainerItemProxy */;
+		};
+		313E51985BFC4967AD8FB378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 258A178999504C94819C06F3 /* Tests */;
+			targetProxy = 23D7B28C4E9344D3B854D3E3 /* PBXContainerItemProxy */;
+		};
+		3F6C035F7A254024A03888E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BFD329D00B44C6A013BA90 /* FooBar */;
+			targetProxy = 9BDA6B12845D453BBFDE96B8 /* PBXContainerItemProxy */;
+		};
+		64598E49E7B24C1388B936B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4B322BC2534673AF136C3C /* ZERO_CHECK */;
+			targetProxy = 40D630E1395540D7825E03A3 /* PBXContainerItemProxy */;
+		};
+		9210CDA46D494EA0AD1E47F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4B322BC2534673AF136C3C /* ZERO_CHECK */;
+			targetProxy = 848E136356184E0BA230F782 /* PBXContainerItemProxy */;
+		};
+		9572027244DC4C3B9C3AA8D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4B322BC2534673AF136C3C /* ZERO_CHECK */;
+			targetProxy = A30A3E0FBD3B49CB9153CE28 /* PBXContainerItemProxy */;
+		};
+		C28534D4A0744BFBB131B61A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3ACE61F008249D495F59BCC /* HoloChat */;
+			targetProxy = 085E798AAB164C268227DD1E /* PBXContainerItemProxy */;
+		};
+		D1BCE8314613490C80A5CF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4B322BC2534673AF136C3C /* ZERO_CHECK */;
+			targetProxy = F8D5661ABBB94D968D075BD6 /* PBXContainerItemProxy */;
+		};
+		DC29B6D72FA8428696D93C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BFD329D00B44C6A013BA90 /* FooBar */;
+			targetProxy = 0A5147C49B1F4CFE9CABDAFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		193DD1BCF2F646F3B7A0159E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1B49976F7FBE49FBAB27B269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk;
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/build";
+			};
+			name = Debug;
+		};
+		2C79A8B6D100418AB91EBB34 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		40BA03C161F043628483ACA2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("/Users/james/Projects/ios-cmake/build/cppframework/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/james/Projects/ios-cmake/Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/CMakeFiles/HoloChat.dir/Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = " -fobjc-arc        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -framework FooBar  -framework UIKit -framework Foundation -framework MobileCoreServices -framework CFNetwork -framework SystemConfiguration";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HoloChat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4647C59A644B4D3992075128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		55F815CE15CB4D908F4D9AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		63BAD50BDF8F4856BEEBE106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/james/Projects/ios-cmake/build/Debug${EFFECTIVE_PLATFORM_NAME}/HoloChat.app/PlugIns";
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) ";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",Tests_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/james/Projects/ios-cmake");
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/tests/CMakeFiles/Tests.dir/Info.plist";
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_LDFLAGS = " -bundle -Wl,-headerpad_max_install_names  -framework Foundation -framework XCTest";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/tests";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "/Users/james/Projects/ios-cmake/build/Debug${EFFECTIVE_PLATFORM_NAME}/HoloChat.app/HoloChat";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6BC937CE3F234D1F8FA1BF7D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FooBar_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/cppframework/CMakeFiles/FooBar.dir/Info.plist";
+				INSTALL_PATH = "/Users/james/Projects/ios-cmake/build/cppframework/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden  ";
+				OTHER_LDFLAGS = "-Wall  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FooBar;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/cppframework";
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		70B49C38AFCF44C5945E620F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FooBar_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/cppframework/CMakeFiles/FooBar.dir/Info.plist";
+				INSTALL_PATH = "/Users/james/Projects/ios-cmake/build/cppframework/Release${EFFECTIVE_PLATFORM_NAME}";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden  ";
+				OTHER_LDFLAGS = "-Wall  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FooBar;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/cppframework";
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		712219008AD844CAA50116AB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk;
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		73F59818FDBB459386DD9E0B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk;
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/build";
+			};
+			name = MinSizeRel;
+		};
+		77829BA7277E4888A7CDB0A0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FooBar_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/cppframework/CMakeFiles/FooBar.dir/Info.plist";
+				INSTALL_PATH = "/Users/james/Projects/ios-cmake/build/cppframework/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden  ";
+				OTHER_LDFLAGS = "-Wall  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FooBar;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/cppframework";
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7C38D52F347640A39F7FB86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("/Users/james/Projects/ios-cmake/build/cppframework/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/james/Projects/ios-cmake/Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/CMakeFiles/HoloChat.dir/Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = " -fobjc-arc     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -framework FooBar  -framework UIKit -framework Foundation -framework MobileCoreServices -framework CFNetwork -framework SystemConfiguration";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HoloChat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		900DC9B653A64FFABDF98B16 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		95C73A7D8DDA47EF8A1508E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FooBar_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/cppframework/CMakeFiles/FooBar.dir/Info.plist";
+				INSTALL_PATH = "/Users/james/Projects/ios-cmake/build/cppframework/Debug${EFFECTIVE_PLATFORM_NAME}";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fvisibility=hidden -fvisibility-inlines-hidden";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fvisibility=hidden -fvisibility-inlines-hidden  ";
+				OTHER_LDFLAGS = "-Wall  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FooBar;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/cppframework";
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		966E4810925A43F6A767C34B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk;
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/build";
+			};
+			name = Release;
+		};
+		A9B233E07A8F4E0894DC9725 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B1D8DF0CDF68411FB8DA3BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("/Users/james/Projects/ios-cmake/build/cppframework/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/james/Projects/ios-cmake/Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/CMakeFiles/HoloChat.dir/Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = " -fobjc-arc     ";
+				OTHER_LDFLAGS = " -framework FooBar  -framework UIKit -framework Foundation -framework MobileCoreServices -framework CFNetwork -framework SystemConfiguration";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HoloChat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B2C5D356E8DE428496436B12 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/james/Projects/ios-cmake/build/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/HoloChat.app/PlugIns";
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) ";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",Tests_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/james/Projects/ios-cmake");
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/tests/CMakeFiles/Tests.dir/Info.plist";
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -bundle -Wl,-headerpad_max_install_names  -framework Foundation -framework XCTest";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/tests";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "/Users/james/Projects/ios-cmake/build/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/HoloChat.app/HoloChat";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D2A53B1AEBD74F12BAA58AA0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/james/Projects/ios-cmake/build/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/HoloChat.app/PlugIns";
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) ";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",Tests_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/james/Projects/ios-cmake");
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/tests/CMakeFiles/Tests.dir/Info.plist";
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -bundle -Wl,-headerpad_max_install_names  -framework Foundation -framework XCTest";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/tests";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "/Users/james/Projects/ios-cmake/build/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/HoloChat.app/HoloChat";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DB71191A524243FB879C1A5B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EA0F871CA4AC41F09212C0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F2D1D200C6BB42F09FCC6385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/james/Projects/ios-cmake/build/Release${EFFECTIVE_PLATFORM_NAME}/HoloChat.app/PlugIns";
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited) ";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",Tests_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/james/Projects/ios-cmake");
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/tests/CMakeFiles/Tests.dir/Info.plist";
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = BUNDLE;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -bundle -Wl,-headerpad_max_install_names  -framework Foundation -framework XCTest";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build/tests";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "/Users/james/Projects/ios-cmake/build/Release${EFFECTIVE_PLATFORM_NAME}/HoloChat.app/HoloChat";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F967557933954B0BA72BC1ED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 94J6N6TEVZ;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("/Users/james/Projects/ios-cmake/build/cppframework/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/james/Projects/ios-cmake/Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INFOPLIST_FILE = "/Users/james/Projects/ios-cmake/build/CMakeFiles/HoloChat.dir/Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = " -fobjc-arc     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -framework FooBar  -framework UIKit -framework Foundation -framework MobileCoreServices -framework CFNetwork -framework SystemConfiguration";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HoloChat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/james/Projects/ios-cmake/build";
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12CCC70D48BF4CC48712AD08 /* Build configuration list for PBXNativeTarget "FooBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C73A7D8DDA47EF8A1508E2 /* Debug */,
+				70B49C38AFCF44C5945E620F /* Release */,
+				77829BA7277E4888A7CDB0A0 /* MinSizeRel */,
+				6BC937CE3F234D1F8FA1BF7D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		13A39FE079C04E71AC82335A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4647C59A644B4D3992075128 /* Debug */,
+				EA0F871CA4AC41F09212C0D9 /* Release */,
+				A9B233E07A8F4E0894DC9725 /* MinSizeRel */,
+				DB71191A524243FB879C1A5B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84F4C65325F04293AD3ABD57 /* Build configuration list for PBXProject "holochat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B49976F7FBE49FBAB27B269 /* Debug */,
+				966E4810925A43F6A767C34B /* Release */,
+				73F59818FDBB459386DD9E0B /* MinSizeRel */,
+				712219008AD844CAA50116AB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB804A827DCE4CAE87B6E7F4 /* Build configuration list for PBXNativeTarget "HoloChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D8DF0CDF68411FB8DA3BC8 /* Debug */,
+				7C38D52F347640A39F7FB86F /* Release */,
+				F967557933954B0BA72BC1ED /* MinSizeRel */,
+				40BA03C161F043628483ACA2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D0DA9B11CDE947019D55AB40 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BAD50BDF8F4856BEEBE106 /* Debug */,
+				F2D1D200C6BB42F09FCC6385 /* Release */,
+				B2C5D356E8DE428496436B12 /* MinSizeRel */,
+				D2A53B1AEBD74F12BAA58AA0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FF81F54701C44FDE8CE2A4A5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F815CE15CB4D908F4D9AA6 /* Debug */,
+				193DD1BCF2F646F3B7A0159E /* Release */,
+				2C79A8B6D100418AB91EBB34 /* MinSizeRel */,
+				900DC9B653A64FFABDF98B16 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C4E8BB3BCCA4818A2804F38 /* Project object */;
+}

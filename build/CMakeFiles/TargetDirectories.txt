@@ -1,0 +1,5 @@
+/Users/james/Projects/ios-cmake/build/CMakeFiles/HoloChat.dir
+/Users/james/Projects/ios-cmake/build/CMakeFiles/ALL_BUILD.dir
+/Users/james/Projects/ios-cmake/build/CMakeFiles/ZERO_CHECK.dir
+/Users/james/Projects/ios-cmake/build/cppframework/CMakeFiles/FooBar.dir
+/Users/james/Projects/ios-cmake/build/tests/CMakeFiles/Tests.dir
